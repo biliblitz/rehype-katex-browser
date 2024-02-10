@@ -1,0 +1,49 @@
+{
+  "name": "rehype-katex-browser",
+  "version": "6.0.3",
+  "description": "rehype plugin to transform inline and block math with KaTeX (only renders in browser)",
+  "license": "MIT",
+  "keywords": [
+    "unified",
+    "remark",
+    "rehype",
+    "rehype-plugin",
+    "plugin",
+    "mdast",
+    "markdown",
+    "hast",
+    "html",
+    "math",
+    "katex",
+    "latex",
+    "tex"
+  ],
+  "repository": "https://github.com/biliblitz/rehype-katex-browser",
+  "author": "swwind <i@sww.moe> (https://sww.moe)",
+  "contributors": [
+    "swwind <i@sww.moe> (https://sww.moe)",
+    "Junyoung Choi <fluke8259@gmail.com> (https://rokt33r.github.io)",
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+  ],
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "dependencies": {
+    "hast-util-to-text": "^3.1.2",
+    "unist-util-visit": "^4.1.2"
+  },
+  "devDependencies": {
+    "unified": "^11.0.4"
+  }
+}
