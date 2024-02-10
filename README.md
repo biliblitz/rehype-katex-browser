@@ -34,6 +34,8 @@ If you are really lazy, you can use this code directly.
 import { useEffect, useRef } from "preact/hooks";
 import katex from "katex";
 
+import "katex/dist/katex.css"; // or other ways
+
 type Props = {
   mode: "inline" | "display";
   content: string;
